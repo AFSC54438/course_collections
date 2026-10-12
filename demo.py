@@ -1,9 +1,30 @@
 import requests
-from cs50 import get_string
+from cs50 import get_string, get_int
 import json
 from termcolor import colored
 
-BASE = "http://127.0.0.1:5000/igcse"
+BASE = "http://127.0.0.1:5000/"
+
+
+print("Levels:")
+print("1) IGCSE")
+print("2) AS Level")
+print("3) A Level")
+
+level = ""
+while level not in [1, 2, 3]:
+    level = get_int("Which level (1/2/3)? ")
+
+
+new_base = BASE
+
+if level == 1:
+    new_base += "igcse"
+elif level == 2:
+    new_base += "as_lvl"
+elif level == 3:
+    new_base += "a_lvl"
+
 
 subj_codes = []
 while True:
@@ -16,8 +37,8 @@ while True:
 
 args = "&subjs=".join(subj_codes)
 
-print(colored(f"{BASE}?subjs={args}", "blue"))
-response = requests.get(f"{BASE}?subjs={args}")
+print(colored(f"{new_base}?subjs={args}", "blue"))
+response = requests.get(f"{new_base}?subjs={args}")
 
 data_dict = ""
 if response.status_code == 200:

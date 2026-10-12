@@ -101,7 +101,7 @@ def as_lvl():
     return "work in progress"
 
 @app.route("/a_lvl")
-def as_lvl():
+def a_lvl():
     return "work in progress"
 
 if __name__ == "__main__":
