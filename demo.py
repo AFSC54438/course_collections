@@ -8,21 +8,17 @@ BASE = "http://127.0.0.1:5000/"
 
 print("Levels:")
 print("1) IGCSE")
-print("2) AS Level")
-print("3) A Level")
+print("2) A Level")
 
 level = ""
 while level not in [1, 2, 3]:
-    level = get_int("Which level (1/2/3)? ")
-
+    level = get_int("Which level (1/2)? ")
 
 new_base = BASE
 
 if level == 1:
     new_base += "igcse"
 elif level == 2:
-    new_base += "as_lvl"
-elif level == 3:
     new_base += "a_lvl"
 
 

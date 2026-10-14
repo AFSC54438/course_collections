@@ -71,9 +71,50 @@ IGCSE_DATA = {'0452': [{'subj_name': 'Accounting (Multiple Choice)', 'subj_compo
  '2251': [{'subj_name': 'Sociology', 'subj_component': '12', 'duration': 120, 'date': '2026-10-16T00:00:00'}, {'subj_name': 'Sociology', 'subj_component': '22', 'duration': 105, 'date': '2026-10-21T00:00:00'}],
  '4040': [{'subj_name': 'Statistics', 'subj_component': '12', 'duration': 135, 'date': '2026-10-07T00:00:00'}, {'subj_name': 'Statistics', 'subj_component': '22', 'duration': 135, 'date': '2026-10-12T00:00:00'}]}
 
-AS_DATA = ...
+A_LVL_DATA = {'9706': [{'subj_name': 'Accounting (Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-03T00:00:00'}, {'subj_name': 'Accounting', 'subj_component': '22', 'duration': 105, 'date': '2026-10-15T00:00:00'}, {'subj_name': 'Accounting', 'subj_component': '32', 'duration': 90, 'date': '2026-10-21T00:00:00'}, {'subj_name': 'Accounting', 'subj_component': '42', 'duration': 60, 'date': '2026-10-28T00:00:00'}],
+ '8679': [{'subj_name': 'Afrikaans Language', 'subj_component': '02', 'duration': 105, 'date': '2026-10-02T00:00:00'}, {'subj_name': 'Afrikaans Language', 'subj_component': '03', 'duration': 90, 'date': '2026-09-28T00:00:00'}],
+ '8680': [{'subj_name': 'Arabic Language', 'subj_component': '22', 'duration': 105, 'date': '2026-10-26T00:00:00'}, {'subj_name': 'Arabic Language', 'subj_component': '32', 'duration': 90, 'date': '2026-10-05T00:00:00'}],
+ '9484': [{'subj_name': 'Biblical Studies', 'subj_component': '12', 'duration': 90, 'date': '2026-10-23T00:00:00'}, {'subj_name': 'Biblical Studies', 'subj_component': '22', 'duration': 90, 'date': '2026-10-26T00:00:00'}, {'subj_name': 'Biblical Studies', 'subj_component': '32', 'duration': 90, 'date': '2026-11-05T00:00:00'}, {'subj_name': 'Biblical Studies', 'subj_component': '42', 'duration': 90, 'date': '2026-11-09T00:00:00'}],
+ '9700': [{'subj_name': 'Biology (Multiple Choice)', 'subj_component': '12', 'duration': 75, 'date': '2026-11-12T00:00:00'}, {'subj_name': 'Biology', 'subj_component': '22', 'duration': 75, 'date': '2026-10-20T00:00:00'}, {'subj_name': 'Biology (Practical - Advanced)', 'subj_component': '33', 'duration': 120, 'date': '2026-10-06T00:00:00'}, {'subj_name': 'Biology (Practical - Advanced)', 'subj_component': '34', 'duration': 120, 'date': '2026-10-29T00:00:00'}, {'subj_name': 'Biology', 'subj_component': '42', 'duration': 120, 'date': '2026-10-23T00:00:00'}, {'subj_name': 'Biology', 'subj_component': '52', 'duration': 75, 'date': '2026-10-20T00:00:00'}],
+ '9609': [{'subj_name': 'Business', 'subj_component': '12', 'duration': 75, 'date': '2026-10-05T00:00:00'}, {'subj_name': 'Business', 'subj_component': '22', 'duration': 90, 'date': '2026-10-08T00:00:00'}, {'subj_name': 'Business', 'subj_component': '32', 'duration': 105, 'date': '2026-10-12T00:00:00'}, {'subj_name': 'Business', 'subj_component': '42', 'duration': 75, 'date': '2026-10-19T00:00:00'}],
+ '9701': [{'subj_name': 'Chemistry (Multiple Choice)', 'subj_component': '12', 'duration': 75, 'date': '2026-11-13T00:00:00'}, {'subj_name': 'Chemistry', 'subj_component': '22', 'duration': 75, 'date': '2026-10-09T00:00:00'}, {'subj_name': 'Chemistry (Practical - Advanced)', 'subj_component': '33', 'duration': 120, 'date': '2026-09-29T00:00:00'}, {'subj_name': 'Chemistry (Practical - Advanced)', 'subj_component': '34', 'duration': 120, 'date': '2026-10-27T00:00:00'}, {'subj_name': 'Chemistry', 'subj_component': '42', 'duration': 120, 'date': '2026-10-16T00:00:00'}, {'subj_name': 'Chemistry', 'subj_component': '52', 'duration': 75, 'date': '2026-10-09T00:00:00'}],
+ '8238': [{'subj_name': 'Chinese Language (Listening - Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-04T00:00:00'}, {'subj_name': 'Chinese Language (Multiple Choice)', 'subj_component': '22', 'duration': 90, 'date': '2026-11-06T00:00:00'}, {'subj_name': 'Chinese Language', 'subj_component': '32', 'duration': 90, 'date': '2026-10-16T00:00:00'}],
+ '9274': [{'subj_name': 'Classical Studies', 'subj_component': '12', 'duration': 90, 'date': '2026-10-20T00:00:00'}, {'subj_name': 'Classical Studies', 'subj_component': '22', 'duration': 90, 'date': '2026-10-22T00:00:00'}, {'subj_name': 'Classical Studies', 'subj_component': '32', 'duration': 90, 'date': '2026-10-29T00:00:00'}, {'subj_name': 'Classical Studies', 'subj_component': '42', 'duration': 90, 'date': '2026-11-06T00:00:00'}],
+ '9618': [{'subj_name': 'Computer Science', 'subj_component': '12', 'duration': 90, 'date': '2026-10-09T00:00:00'}, {'subj_name': 'Computer Science', 'subj_component': '22', 'duration': 120, 'date': '2026-10-14T00:00:00'}, {'subj_name': 'Computer Science (Advanced)', 'subj_component': '32', 'duration': 90, 'date': '2026-10-20T00:00:00'}],
+ '9705': [{'subj_name': 'Design & Technology', 'subj_component': '12', 'duration': 135, 'date': '2026-11-04T00:00:00'}, {'subj_name': 'Design & Technology', 'subj_component': '32', 'duration': 150, 'date': '2026-11-06T00:00:00'}],
+ '9482': [{'subj_name': 'Drama', 'subj_component': '12', 'duration': 120, 'date': '2026-11-06T00:00:00'}],
+ '9708': [{'subj_name': 'Economics (Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-05T00:00:00'}, {'subj_name': 'Economics', 'subj_component': '22', 'duration': 120, 'date': '2026-10-06T00:00:00'}, {'subj_name': 'Economics (Multiple Choice)', 'subj_component': '32', 'duration': 75, 'date': '2026-11-11T00:00:00'}, {'subj_name': 'Economics', 'subj_component': '42', 'duration': 120, 'date': '2026-10-13T00:00:00'}],
+ '8021': [{'subj_name': 'English General Paper', 'subj_component': '12', 'duration': 75, 'date': '2026-09-28T00:00:00'}, {'subj_name': 'English General Paper', 'subj_component': '22', 'duration': 105, 'date': '2026-09-30T00:00:00'}],
+ '9093': [{'subj_name': 'English Language', 'subj_component': '12', 'duration': 135, 'date': '2026-10-16T00:00:00'}, {'subj_name': 'English Language', 'subj_component': '22', 'duration': 120, 'date': '2026-10-21T00:00:00'}, {'subj_name': 'English Language', 'subj_component': '32', 'duration': 135, 'date': '2026-10-30T00:00:00'}, {'subj_name': 'English Language', 'subj_component': '42', 'duration': 135, 'date': '2026-11-04T00:00:00'}],
+ '8291': [{'subj_name': 'Environmental Management', 'subj_component': '12', 'duration': 105, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'Environmental Management', 'subj_component': '22', 'duration': 105, 'date': '2026-10-02T00:00:00'}],
+ '8028': [{'subj_name': 'French Language (Listening - Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-04T00:00:00'}, {'subj_name': 'French Language (Multiple Choice)', 'subj_component': '22', 'duration': 90, 'date': '2026-11-11T00:00:00'}, {'subj_name': 'French Language', 'subj_component': '32', 'duration': 90, 'date': '2026-09-30T00:00:00'}],
+ '9231': [{'subj_name': 'Further Mathematics', 'subj_component': '12', 'duration': 120, 'date': '2026-10-07T00:00:00'}, {'subj_name': 'Further Mathematics', 'subj_component': '32', 'duration': 90, 'date': '2026-10-09T00:00:00'}, {'subj_name': 'Further Mathematics', 'subj_component': '42', 'duration': 90, 'date': '2026-10-30T00:00:00'}, {'subj_name': 'Further Mathematics', 'subj_component': '22', 'duration': 120, 'date': '2026-10-23T00:00:00'}],
+ '9696': [{'subj_name': 'Geography (Core)', 'subj_component': '12', 'duration': 90, 'date': '2026-10-08T00:00:00'}, {'subj_name': 'Geography (Core)', 'subj_component': '22', 'duration': 90, 'date': '2026-10-22T00:00:00'}, {'subj_name': 'Geography (Advanced)', 'subj_component': '32', 'duration': 90, 'date': '2026-10-30T00:00:00'}, {'subj_name': 'Geography (Advanced)', 'subj_component': '42', 'duration': 90, 'date': '2026-11-03T00:00:00'}],
+ '8027': [{'subj_name': 'German Language (Listening - Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-02T00:00:00'}, {'subj_name': 'German Language (Multiple Choice)', 'subj_component': '22', 'duration': 90, 'date': '2026-11-10T00:00:00'}, {'subj_name': 'German Language', 'subj_component': '32', 'duration': 90, 'date': '2026-09-30T00:00:00'}],
+ '9239': [{'subj_name': 'Global Perspectives & Research', 'subj_component': '12', 'duration': 90, 'date': '2026-09-28T00:00:00'}],
+ '9487': [{'subj_name': 'Hinduism', 'subj_component': '01', 'duration': 90, 'date': '2026-10-05T00:00:00'}, {'subj_name': 'Hinduism', 'subj_component': '02', 'duration': 90, 'date': '2026-10-20T00:00:00'}, {'subj_name': 'Hinduism', 'subj_component': '03', 'duration': 90, 'date': '2026-10-27T00:00:00'}, {'subj_name': 'Hinduism', 'subj_component': '04', 'duration': 90, 'date': '2026-11-05T00:00:00'}],
+ '9489': [{'subj_name': 'History', 'subj_component': '12', 'duration': 75, 'date': '2026-10-13T00:00:00'}, {'subj_name': 'History', 'subj_component': '22', 'duration': 105, 'date': '2026-10-19T00:00:00'}, {'subj_name': 'History', 'subj_component': '32', 'duration': 75, 'date': '2026-10-22T00:00:00'}, {'subj_name': 'History', 'subj_component': '42', 'duration': 105, 'date': '2026-10-29T00:00:00'}],
+ '9626': [{'subj_name': 'Information Technology', 'subj_component': '12', 'duration': 105, 'date': '2026-10-05T00:00:00'}, {'subj_name': 'Information Technology (Advanced)', 'subj_component': '32', 'duration': 105, 'date': '2026-10-26T00:00:00'}],
+ '8695': [{'subj_name': 'Language & Literature in English', 'subj_component': '12', 'duration': 120, 'date': '2026-10-21T00:00:00'}, {'subj_name': 'Language & Literature in English', 'subj_component': '22', 'duration': 120, 'date': '2026-10-12T00:00:00'}],
+ '9084': [{'subj_name': 'Law', 'subj_component': '12', 'duration': 90, 'date': '2026-09-28T00:00:00'}, {'subj_name': 'Law', 'subj_component': '22', 'duration': 90, 'date': '2026-10-02T00:00:00'}, {'subj_name': 'Law', 'subj_component': '32', 'duration': 90, 'date': '2026-10-06T00:00:00'}, {'subj_name': 'Law', 'subj_component': '42', 'duration': 90, 'date': '2026-10-08T00:00:00'}],
+ '9695': [{'subj_name': 'Literature in English', 'subj_component': '12', 'duration': 120, 'date': '2026-10-12T00:00:00'}, {'subj_name': 'Literature in English', 'subj_component': '22', 'duration': 120, 'date': '2026-10-23T00:00:00'}, {'subj_name': 'Literature in English', 'subj_component': '32', 'duration': 120, 'date': '2026-10-28T00:00:00'}, {'subj_name': 'Literature in English', 'subj_component': '42', 'duration': 120, 'date': '2026-11-03T00:00:00'}],
+ '9693': [{'subj_name': 'Marine Science', 'subj_component': '12', 'duration': 105, 'date': '2026-10-14T00:00:00'}, {'subj_name': 'Marine Science', 'subj_component': '22', 'duration': 105, 'date': '2026-10-19T00:00:00'}, {'subj_name': 'Marine Science', 'subj_component': '32', 'duration': 105, 'date': '2026-10-27T00:00:00'}, {'subj_name': 'Marine Science', 'subj_component': '42', 'duration': 105, 'date': '2026-10-29T00:00:00'}],
+ '9709': [{'subj_name': 'Mathematics (Pure Mathematics 1)', 'subj_component': '12', 'duration': 110, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'Mathematics (Pure Mathematics 2)', 'subj_component': '22', 'duration': 75, 'date': '2026-10-13T00:00:00'}, {'subj_name': 'Mathematics (Mechanics)', 'subj_component': '42', 'duration': 75, 'date': '2026-10-13T00:00:00'}, {'subj_name': 'Mathematics (Probability & Statistics 1)', 'subj_component': '52', 'duration': 75, 'date': '2026-10-07T00:00:00'}, {'subj_name': 'Mathematics (Pure Mathematics 3)', 'subj_component': '32', 'duration': 110, 'date': '2026-10-15T00:00:00'}, {'subj_name': 'Mathematics (Probability & Statistics 2)', 'subj_component': '62', 'duration': 75, 'date': '2026-10-13T00:00:00'}],
+ '9607': [{'subj_name': 'Media Studies', 'subj_component': '02', 'duration': 120, 'date': '2026-11-02T00:00:00'}, {'subj_name': 'Media Studies', 'subj_component': '04', 'duration': 120, 'date': '2026-11-05T00:00:00'}],
+ '9483': [{'subj_name': 'Music (Listening)', 'subj_component': '12', 'duration': 120, 'date': '2026-11-02T00:00:00'}],
+ '9702': [{'subj_name': 'Physics (Multiple Choice)', 'subj_component': '12', 'duration': 75, 'date': '2026-11-10T00:00:00'}, {'subj_name': 'Physics', 'subj_component': '22', 'duration': 75, 'date': '2026-10-14T00:00:00'}, {'subj_name': 'Physics (Practical - Advanced)', 'subj_component': '33', 'duration': 120, 'date': '2026-10-08T00:00:00'}, {'subj_name': 'Physics (Practical - Advanced)', 'subj_component': '34', 'duration': 120, 'date': '2026-10-22T00:00:00'}, {'subj_name': 'Physics', 'subj_component': '42', 'duration': 120, 'date': '2026-10-12T00:00:00'}, {'subj_name': 'Physics', 'subj_component': '52', 'duration': 75, 'date': '2026-10-14T00:00:00'}],
+ '9990': [{'subj_name': 'Psychology', 'subj_component': '12', 'duration': 90, 'date': '2026-10-12T00:00:00'}, {'subj_name': 'Psychology', 'subj_component': '22', 'duration': 90, 'date': '2026-10-15T00:00:00'}, {'subj_name': 'Psychology', 'subj_component': '32', 'duration': 90, 'date': '2026-10-21T00:00:00'}, {'subj_name': 'Psychology', 'subj_component': '42', 'duration': 90, 'date': '2026-11-02T00:00:00'}],
+ '9699': [{'subj_name': 'Sociology', 'subj_component': '12', 'duration': 90, 'date': '2026-10-07T00:00:00'}, {'subj_name': 'Sociology', 'subj_component': '22', 'duration': 90, 'date': '2026-10-20T00:00:00'}, {'subj_name': 'Sociology', 'subj_component': '32', 'duration': 75, 'date': '2026-10-26T00:00:00'}, {'subj_name': 'Sociology', 'subj_component': '42', 'duration': 105, 'date': '2026-11-04T00:00:00'}],
+ '8022': [{'subj_name': 'Spanish Language (Listening - Multiple Choice)', 'subj_component': '12', 'duration': 60, 'date': '2026-11-05T00:00:00'}, {'subj_name': 'Spanish Language (Multiple Choice)', 'subj_component': '22', 'duration': 90, 'date': '2026-11-09T00:00:00'}, {'subj_name': 'Spanish Language', 'subj_component': '32', 'duration': 90, 'date': '2026-11-02T00:00:00'}],
+ '8386': [{'subj_name': 'Sport & Physical Education', 'subj_component': '12', 'duration': 105, 'date': '2026-11-03T00:00:00'}],
+ '9694': [{'subj_name': 'Thinking Skills', 'subj_component': '12', 'duration': 90, 'date': '2026-09-28T00:00:00'}, {'subj_name': 'Thinking Skills', 'subj_component': '22', 'duration': 105, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'Thinking Skills', 'subj_component': '32', 'duration': 120, 'date': '2026-10-19T00:00:00'}, {'subj_name': 'Thinking Skills', 'subj_component': '42', 'duration': 105, 'date': '2026-10-28T00:00:00'}],
+ '9395': [{'subj_name': 'Travel & Tourism', 'subj_component': '12', 'duration': 120, 'date': '2026-09-29T00:00:00'}, {'subj_name': 'Travel & Tourism', 'subj_component': '32', 'duration': 90, 'date': '2026-10-05T00:00:00'}, {'subj_name': 'Travel & Tourism', 'subj_component': '42', 'duration': 90, 'date': '2026-10-07T00:00:00'}],
+ '9680': [{'subj_name': 'Arabic', 'subj_component': '22', 'duration': 105, 'date': '2026-10-26T00:00:00'}, {'subj_name': 'Arabic', 'subj_component': '32', 'duration': 90, 'date': '2026-10-05T00:00:00'}, {'subj_name': 'Arabic', 'subj_component': '42', 'duration': 150, 'date': '2026-09-29T00:00:00'}, {'subj_name': 'Arabic', 'subj_component': '52', 'duration': 45, 'date': '2026-10-26T00:00:00'}],
+ '9868': [{'subj_name': 'Chinese Language & Literature (Multiple Choice)', 'subj_component': '12', 'duration': 90, 'date': '2026-11-05T00:00:00'}, {'subj_name': 'Chinese Language & Literature', 'subj_component': '22', 'duration': 120, 'date': '2026-10-12T00:00:00'}, {'subj_name': 'Chinese Language & Literature', 'subj_component': '32', 'duration': 120, 'date': '2026-09-28T00:00:00'}],
+ '9897': [{'subj_name': 'German Language & Literature (Multiple Choice)', 'subj_component': '12', 'duration': 90, 'date': '2026-11-10T00:00:00'}, {'subj_name': 'German Language & Literature', 'subj_component': '22', 'duration': 120, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'German Language & Literature', 'subj_component': '32', 'duration': 120, 'date': '2026-10-02T00:00:00'}],
+ '9844': [{'subj_name': 'Spanish Language & Literature (Multiple Choice)', 'subj_component': '12', 'duration': 90, 'date': '2026-11-05T00:00:00'}, {'subj_name': 'Spanish Language & Literature', 'subj_component': '22', 'duration': 120, 'date': '2026-10-30T00:00:00'}, {'subj_name': 'Spanish Language & Literature', 'subj_component': '32', 'duration': 120, 'date': '2026-11-02T00:00:00'}],
+ '9686': [{'subj_name': 'Urdu', 'subj_component': '02', 'duration': 105, 'date': '2026-10-26T00:00:00'}, {'subj_name': 'Urdu', 'subj_component': '03', 'duration': 90, 'date': '2026-10-06T00:00:00'}, {'subj_name': 'Urdu', 'subj_component': '04', 'duration': 150, 'date': '2026-10-01T00:00:00'}]}
 
-AL_DATA = ...
 
 app = Flask(__name__)
 
@@ -88,21 +129,29 @@ def igcse_route():
     if len(return_val) == 0 or return_val is None:
         return jsonify({
             "error": {
-                "code": "USER_NOT_FOUND",
-                "message": "The requested user does not exist."
+                "code": "RESULT_NOT_FOUND",
+                "message": "The requested data couldn't be found."
             }
         }), 404
 
     return jsonify(return_val), 200
     
 
-@app.route("/as_lvl")
-def as_lvl():
-    return "work in progress"
-
 @app.route("/a_lvl")
 def a_lvl():
-    return "work in progress"
+    subj = request.args.getlist("subjs")
+    
+    return_val = {key: value for key, value in A_LVL_DATA.items() if key in subj}
+
+    if len(return_val) == 0 or return_val is None:
+        return jsonify({
+            "error": {
+                "code": "RESULT_NOT_FOUND",
+                "message": "The requested data couldn't be found."
+            }
+        }), 404
+
+    return jsonify(return_val), 200
 
 if __name__ == "__main__":
     app.run(debug=True)
