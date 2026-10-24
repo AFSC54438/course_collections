@@ -1,5 +1,4 @@
 from flask import Flask, request, jsonify
-from datetime import datetime
 
 IGCSE_DATA = {'0452': [{'subj_name': 'Accounting (Multiple Choice)', 'subj_component': '12', 'duration': 75, 'date': '2026-11-06T00:00:00'}, {'subj_name': 'Accounting', 'subj_component': '22', 'duration': 105, 'date': '2026-10-08T00:00:00'}],
  '0606': [{'subj_name': 'Additional Mathematics', 'subj_component': '12', 'duration': 120, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'Additional Mathematics', 'subj_component': '22', 'duration': 120, 'date': '2026-10-06T00:00:00'}],

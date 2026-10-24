@@ -5,7 +5,6 @@ from termcolor import colored
 
 BASE = "http://127.0.0.1:5000/"
 
-
 print("Levels:")
 print("1) IGCSE")
 print("2) A Level")
