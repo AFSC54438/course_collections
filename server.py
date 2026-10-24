@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+import os
 
 IGCSE_DATA = {'0452': [{'subj_name': 'Accounting (Multiple Choice)', 'subj_component': '12', 'duration': 75, 'date': '2026-11-06T00:00:00'}, {'subj_name': 'Accounting', 'subj_component': '22', 'duration': 105, 'date': '2026-10-08T00:00:00'}],
  '0606': [{'subj_name': 'Additional Mathematics', 'subj_component': '12', 'duration': 120, 'date': '2026-09-30T00:00:00'}, {'subj_name': 'Additional Mathematics', 'subj_component': '22', 'duration': 120, 'date': '2026-10-06T00:00:00'}],
@@ -117,8 +118,6 @@ A_LVL_DATA = {'9706': [{'subj_name': 'Accounting (Multiple Choice)', 'subj_compo
 
 app = Flask(__name__)
 
-BASE = "http://127.0.0.1:5000"
-
 @app.route("/igcse/")
 def igcse_route():
     subj = request.args.getlist("subjs")
@@ -152,5 +151,7 @@ def a_lvl():
 
     return jsonify(return_val), 200
 
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 10000))
+    app.run(host="0.0.0.0", port=port)
