@@ -3,7 +3,7 @@ from cs50 import get_string, get_int
 import json
 from termcolor import colored
 
-BASE = "http://127.0.0.1:5000/"
+BASE = "https://cies-ugfb.onrender.com/"
 
 print("Levels:")
 print("1) IGCSE")
